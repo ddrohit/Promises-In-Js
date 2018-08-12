@@ -58,3 +58,6 @@ as the promise alwase resolve the then call back is executed.
 # Where Promises are used 
 + Promises are mostly used in place of events when two functions are dependent on each other.
 + Service Worker Api's mainly uses the promises .
+
+# Best Video explanation
+<a href="https://www.youtube.com/embed/s6SH72uAn3Q?list=PLYswWC54mIBiBNczi4gcc4yjBIHh4OhDz&amp;ecver=1">Promise Explained The Best Video </a>
