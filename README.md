@@ -1,4 +1,4 @@
-# Promises-In-Js
+# Promises-in-js
 Promises in the JavaScript 
 
 Promises in JavaScript are used to use the javascript Single Threaded very wisely.
@@ -19,7 +19,7 @@ let mypromise=new Promise(function(resolve,reject){
         //reject();
 });
 ```
-# Using a Promise in the program
+# Using a promise in the program
   
   promises are mainly used in the program when we want a task to be started only the other task is completed
   usually events are used to do this kind on stuff in js, but it becoms messy for large number of events so
@@ -55,9 +55,9 @@ mypromise.then(function(){
 in the above program when the promise is resolved then the then callback is executed and if it is rejected catch callback is executed
 as the promise alwase resolve the then call back is executed.
 
-# Where Promises are used 
+# Where promises are used 
 + Promises are mostly used in place of events when two functions are dependent on each other.
 + Service Worker Api mainly uses the promises .
 
-# Best Video explanation
+# Best video explanation
 <a href="https://www.youtube.com/embed/s6SH72uAn3Q?list=PLYswWC54mIBiBNczi4gcc4yjBIHh4OhDz&amp;ecver=1">Promise Explained The Best Video </a>
