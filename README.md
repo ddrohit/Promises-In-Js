@@ -29,21 +29,20 @@ let mypromise=new Promise(function(resolve,reject){
 ```javascript
 //defining a promise
 let mypromise=new Promise(function(resolve,reject){
-var d = new Date();
-console.log("called a function at the time of "+d.getSeconds());
-setTimeout(function(){
-	return resolve();
-	}, 2000);
- });
+			var d = new Date();
+			console.log("called a function at the time of "+d.getSeconds());
+			setTimeout(function(){return resolve();}, 2000);
+ 	    	  });
 
 //using the promise
 mypromise.then(function(){
- var d = new Date();
-	console.log("promise resolved at "+d.getSeconds());
-}).catch(function(){
-	  var d = new Date();
-	  console.log("promise failed "+d.getSeconds())
-});
+ 			var d = new Date();
+			console.log("promise resolved at "+d.getSeconds());
+	  })
+	 .catch(function(){
+	  	var d = new Date();
+	  	console.log("promise failed "+d.getSeconds())
+	});
 ```
 
 #output:-
